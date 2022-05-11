@@ -1,0 +1,39 @@
+
+#js-todo-create-text{
+
+}
+
+.js-todo-container{
+    display: flex;
+}
+#js-todo-entries{
+    min-width: 30%;
+    list-style: none;
+    padding-left: 0px;
+}
+.todo{
+    margin:0.5rem;
+    display: flex;
+    justify-content: space-between; 
+}
+.todo li{
+    flex: 1;
+}
+.js-todo-entry-done{
+    font-size: 1rem;
+    margin-right:0.5rem;
+}
+.js-todo-entry-remove{
+    font-size: 1rem;
+}
+.fa-trash,.fa-check{
+    pointer-events: none;
+}
+.completed{
+    text-decoration: line-through;
+}
+
+
+
+
+

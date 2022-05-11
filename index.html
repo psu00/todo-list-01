@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>This is a very basic to-do list</h1>
+        <h2>Tasks:</h2>
+        <ul>
+            <li>Create new entries by providing some text and pressing the "+" button</li>
+            <li>The "[ Done ]" link marks an entry as done (style = strike-through)</li>
+            <li>The "[ Remove ]" link removes an entry from the list</li>
+            <li>If you want to be more creative add some fancy styles and more features</li>
+        </ul>
+        <h3>Here is where the magic happens:</h3>
+        <div>
+            <input id="js-todo-create-text" type="text" name="todo-text" placeholder="Some text" /> <button id="js-todo-create" type="button">+</button>
+            <hr />
+            <div class="js-todo-container">
+                <ul id="js-todo-entries">
+                </ul>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
